@@ -23,6 +23,10 @@ main {
   flex: 1;
   margin: 6.4rem auto;
 }
+main .logo {
+  width: 35rem;
+  height: auto;
+}
 main h1 {
   font-family: 'Dosis', sans-serif;
   font-size: 3.2rem;
@@ -68,6 +72,22 @@ footer .opcoes {
 .opcoes a h3 {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+main .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 2.8rem;
+  position: relative;
+  top: -19rem;
+  left: 17.5rem;
+}
+
+main .icons .icon2 {
+  transform: scale(1.6);
+}
+main .icons img {
+  filter: drop-shadow(2px 2px 1px #4444dd);
 }
 footer img {
   width: 100%;
